@@ -21,6 +21,7 @@ export function NewTodoForm({ onSubmit }) {
           value={newItem}
           onChange={(e) => setNewItem(e.target.value)}
           id="item"
+          placeholder="(ie. - get groceries)"
         />
       </div>
       <button className="btn">Add</button>

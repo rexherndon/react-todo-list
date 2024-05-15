@@ -138,3 +138,8 @@
   .list li:has(input:checked) label:hover::before {
     background: hsl(200, 100%, 30%);
   }
+
+  ::placeholder {
+    color: rgba(231, 225, 225, 0.719);
+    opacity: 1; /* Firefox */
+  }
